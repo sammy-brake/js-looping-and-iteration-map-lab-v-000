@@ -11,7 +11,7 @@ function nameToAttributes(drivers) {
   let nameDictionary = [];
   drivers.map(function(driver){
 
-        nameDictionary.push({firstName: fullName[0], lastName: fullName[1]})
+        nameDictionary.push({firstName: driver[0], lastName: driver[1]})
 
     return nameDictionary;
   });
