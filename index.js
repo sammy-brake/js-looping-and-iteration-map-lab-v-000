@@ -4,3 +4,7 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase();
   });
 };
+
+driver.map(function(num) {
+    return num * num;
+});
