@@ -8,5 +8,8 @@ function lowerCaseDrivers(drivers) {
 };
 
 function nameToAttributes(drivers) {
-
+  let nameDictionary = {};
+  for (const fullName of drivers) {
+    
+  };
 };
