@@ -13,7 +13,7 @@ function nameToAttributes(drivers) {
 
         nameDictionary.push({firstName: driver[0], lastName: driver[1]});
 
-    return nameDictionary;
+    
   });
-
+  return nameDictionary;
 };
