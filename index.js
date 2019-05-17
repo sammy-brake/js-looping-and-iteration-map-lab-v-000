@@ -15,6 +15,6 @@ function nameToAttributes(drivers) {
   return nameDictionary;
 };
 
-function attributesToPhrase() {
-
+function attributesToPhrase(drivers) {
+  
 };
