@@ -15,5 +15,5 @@ function nameToAttributes(drivers) {
     };
     return nameDictionary;
   });
-  
+
 };
