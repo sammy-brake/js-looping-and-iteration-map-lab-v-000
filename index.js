@@ -5,4 +5,3 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase();
   });
 };
-
