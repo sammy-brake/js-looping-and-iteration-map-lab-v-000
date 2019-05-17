@@ -10,12 +10,15 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
   let nameDictionary = [];
   drivers.map(function(driver){
-      return "${driver["name"]} is from ${driver["hometown"]}"
-        // nameDictionary.push({firstName: driver["name"], lastName: driver.split(" ")[1]});
+        nameDictionary.push({firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]});
   });
-  // return nameDictionary;
+  return nameDictionary;
 };
 
 function attributesToPhrase(drivers) {
-
+    drivers.map(function(driver){
+        return "${driver["name"]} is from ${driver["hometown"]}"
+          // nameDictionary.push({firstName: driver["name"], lastName: driver.split(" ")[1]});
+    });
+    // return nameDictionary;
 };
