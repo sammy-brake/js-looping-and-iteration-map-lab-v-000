@@ -9,8 +9,11 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   let nameDictionary = {};
-  for (const fullName of drivers) {
-      nameDictionary[fullName[0]] = fullname[1];
-  };
-  return nameDictionary;
+  drivers.map(function(driver){
+    for (const fullName of driver) {
+        nameDictionary[fullName[0]] = fullname[1];
+    };
+    return nameDictionary;
+  });
+  
 };
