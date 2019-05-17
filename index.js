@@ -22,3 +22,9 @@ function attributesToPhrase(drivers) {
     });
     // return nameDictionary;
 };
+
+function attributesToPhrase(drivers) {
+  drivers.map(function(driver){
+    return "${driver["name"]} is from ${driver["hometown"]} "
+  });
+};
