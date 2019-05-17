@@ -10,10 +10,8 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
   let nameDictionary = [];
   drivers.map(function(driver){
-
-        nameDictionary.push({firstName: driver[0], lastName: driver[1]});
-
-
+    
+        nameDictionary.push({firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]});
   });
   return nameDictionary;
 };
