@@ -15,13 +15,13 @@ function nameToAttributes(drivers) {
   return nameDictionary;
 };
 
-function attributesToPhrase(drivers) {
-    drivers.map(function(driver){
-        return "${driver["name"]} is from ${driver["hometown"]}"
-          // nameDictionary.push({firstName: driver["name"], lastName: driver.split(" ")[1]});
-    });
-    // return nameDictionary;
-};
+// function attributesToPhrase(drivers) {
+//     drivers.map(function(driver){
+//         return "${driver["name"]} is from ${driver["hometown"]}"
+//           // nameDictionary.push({firstName: driver["name"], lastName: driver.split(" ")[1]});
+//     });
+//     // return nameDictionary;
+// };
 
 function attributesToPhrase(drivers) {
   drivers.map(function(driver){
