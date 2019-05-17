@@ -6,6 +6,3 @@ function lowerCaseDrivers(drivers) {
   });
 };
 
-driver.map(function(num) {
-    return num * num;
-});
